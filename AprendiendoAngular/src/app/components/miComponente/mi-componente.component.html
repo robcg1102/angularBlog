@@ -1,0 +1,17 @@
+<div>
+    <hr>
+    <h1>{{titulo}}</h1>
+    <h3>{{year}}</h3>
+    <p>{{comentario}}</p>
+    <p>Hola soy un párrafo</p>
+    <hr>
+</div>
+
+
+<button (click)="ocultarPeliculas()">Ocultar películas</button>
+<div *ngIf="mostrarPeliculas">
+  <app-peliculas></app-peliculas>
+</div>
+<app-pruebas></app-pruebas>
+<app-home></app-home>
+<hr>
